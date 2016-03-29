@@ -23,14 +23,18 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="74dp"
             android:layout_marginTop="30dp"
-            android:ems="10" />
+            android:saveEnabled="false"
+            android:ems="10"
+            android:text="Riddle" />
 
 	    <EditText
 	        android:id="@+id/goodAnswer"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
+            android:saveEnabled="false"
 	        android:layout_marginTop="29dp"
-	        android:ems="10" />
+	        android:ems="10"
+	        android:text="Anwer" />
 	
 	    <Button
 	        android:id="@+id/play"
